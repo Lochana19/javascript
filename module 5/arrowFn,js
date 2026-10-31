@@ -1,0 +1,32 @@
+// A normal function
+
+let a= function(){
+    console.log(70)
+}
+
+
+let b= function(num){
+    console.log(num*num)
+}
+
+let c= function(n,m){
+    console.log(n+m)
+}
+
+a()
+b(9)
+c(3,4)
+
+
+
+
+
+// using arrow function
+
+let e=()=>{console.log(1)}
+let f=(num)=>{console.log(num*num)}
+let g=(n,m)=>{console.log(n+m)}
+
+e()
+f(9)
+g(3,4)
